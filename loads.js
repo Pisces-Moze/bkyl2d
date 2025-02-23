@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径
 // const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
-const live2d_path = "https://fastly.jsdelivr.net/gh/lrplrplrp/bkyl2d@master/";
+const live2d_path = "https://fastly.jsdelivr.net/gh/Pisces-Moze/bkyl2d@master/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -46,22 +46,4 @@ if (screen.width >= 768) {
 // API 后端可自行搭建，参考 https://github.com/fghrsh/live2d_api
 // 初始化看板娘会自动加载指定目录下的 waifu-tips.json
 
-console.log(`
-  く__,.ヘヽ.        /  ,ー､ 〉
-           ＼ ', !-─‐-i  /  /´
-           ／｀ｰ'       L/／｀ヽ､
-         /   ／,   /|   ,   ,       ',
-       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
-        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
-          !,/7 '0'     ´0iソ|    |
-          |.从"    _     ,,,, / |./    |
-          ﾚ'| i＞.､,,__  _,.イ /   .i   |
-            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
-              | |/i 〈|/   i  ,.ﾍ |  i  |
-             .|/ /  ｉ：    ﾍ!    ＼  |
-              kヽ>､ﾊ    _,.ﾍ､    /､!
-              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
-              ﾚ'ヽL__|___i,___,ンﾚ|ノ
-                  ﾄ-,/  |___./
-                  'ｰ'    !_,.:
-`);
+console.log(`这是沫泽的板娘`);
